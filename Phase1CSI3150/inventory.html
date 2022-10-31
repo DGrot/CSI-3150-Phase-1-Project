@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>OU Auto Sales</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="David Grot" />
+    <meta name="description" content="Phase 1 Project: Car Dealership Inventory Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+    <header class="header">
+      <a href="index.html#" class="logo">
+        <img class
+          src="images/logo.png"
+          alt="logo"
+          style="width: 224px; height: 77px"
+        />
+      </a>
+      <nav class="navbar">
+        <a href="index.html#">Home</a>
+        <a href="index.html#Featured Cars">Featured Cars</a>
+        <a href="#">For Sale</a>
+        <a href="index.html#About Us">About Us</a>
+        <a href="index.html#Find Us">Find Us</a>
+        <a href="index.html#Contact Us">Contact Us</a>
+      </nav>
+    </header>
+
+    <section class = "inventorytable">
+    <body>
+      <p><br />
+        <br />Click the buttons to sort the inventory!</p>
+      <p><button onclick="sortYear()">Oldest</button><button onclick="sortYearN()">Newest</button>
+        <button onclick="sortManufacturer()">Manufacturer</button><button onclick="sortModel()">Model</button>
+        <button onclick="sortPrice()">Lowest Price</button><button onclick="sortPriceH()">Highest Price</button>
+      </p>
+      
+      <table id="inventorytable">
+        <tr>
+          <th>Year</th>
+          <th>Manufacturer</th>
+          <th>Model</th>
+          <th>Stock Image</th>
+          <th>Advertised Price</th>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td>Ford</td>
+          <td>Taurus SHO</td>
+          <td><img src="images/car1.png"
+            alt="Car image"
+            style="width: 300px; height: 220px"</td>
+          <td>$21,000</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>BMW</td>
+          <td>M6</td>
+          <td><img src="images/car2.png"
+            alt="Car image"
+            style="width: 300px; height: 220px"</td>
+            <td>$53,000</td>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td>Ford</td>
+          <td>Explorer XLT</td>
+          <td><img src="images/car3.png"
+            alt="Car image"
+            style="width: 300px; height: 220px"</td>
+            <td>$32,000</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Dodge</td>
+          <td>Challenger SXT</td>
+          <td><img src="images/car4.png"
+            alt="Car image"
+            style="width: 300px; height: 220px"</td>
+            <td>$28,000</td>
+        </tr>
+      </table>
+      <script src="js/script.js"></script>
+    </section>
+   
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Navigation</h3>
+          <a href="index.html#"> Home </a>
+          <a href="index.html#Featured Cars"> Featured Cars </a>
+          <a href="#"> For Sale </a>
+        </div>
+        <div class="box">
+          <h3>Navigation</h3>
+          <a href="index.html#About Us"> About Us </a>
+          <a href="index.html#Find Us"> Find Us </a>
+          <a href="index.html#Contact Us"> Contact Us </a>
+        </div>
+
+        <div class="box">
+          <h3>Social Media</h3>
+          <a href="#"> Facebook </a>
+          <a href="#"> Instagram </a>
+          <a href="#"> Twitter </a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#"> (Sales) 123-456-7890 </a>
+          <a href="#"> ouautosales@oakland.edu</a>
+          <a href="#"> 318 Meadow Brook Rd, Rochester, MI 48309</a>
+        </div>
+      </div>
+    </section>
+</html>
